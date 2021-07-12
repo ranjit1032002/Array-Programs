@@ -2,7 +2,7 @@
 using namespace std;
 int selection_sort(int a[],int n)
 {
-	for(int i=0;i<n-1;i++)									//Selection Sort me Pahele Sabse Chota ELement Ko Sabse Pahele Lata Hota hai								
+	for(int i=0;i<n-1;i++)									//Selection Sort me Pahele Sabse Chota ELement Ko Sabse Pahele Lana Hota hai								
 	{
 		int minIndex=i;																																							
 		for(int j=i;j<n;j++)
